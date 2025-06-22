@@ -1,0 +1,220 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.form-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input,
+textarea,
+select,
+button {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.preview-box {
+  width: 210mm;
+  height: 297mm;
+  padding: 20mm;
+  box-sizing: border-box;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+.style1 {
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+}
+
+.style2 {
+  background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+}
+
+.style3 {
+  background: linear-gradient(to right, #a1ffce, #faffd1);
+}
+
+.flyer-classic {
+  background-color: #074721;
+  color: white;
+}
+
+.flyer-modern {
+  background: linear-gradient(to right, #ffffff, #ffeedd);
+  color: #222;
+}
+
+.flyer-imageful {
+  /* background: url('/presets/flyer-bg.jpg') center/cover no-repeat; */
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.flyer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flyer-logo {
+  height: 100px;
+}
+
+.flyer-image {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.flyer-container {
+  width: 210mm;
+  height: 297mm;
+  padding: 10mm;
+  box-sizing: border-box;
+  background-color: white;
+  color: #000;
+  font-family: 'Arial', sans-serif;
+}
+
+.classic {
+  background: #d5f5e3;
+  color: #1a4d2e;
+}
+
+.modern {
+  background: linear-gradient(to bottom right, #ffecd2, #fcb69f);
+  color: #2c2c2c;
+}
+
+.imageful {
+  /* background-image: url('/flyer-bg.jpg'); add a nice food bg */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+.bold {
+  background: #000;
+  color: #ff3c3c;
+}
+
+.royal {
+  background: linear-gradient(to bottom, #4b0082, #ffd700);
+  color: #fff;
+  font-family: 'Georgia', serif;
+}
+
+
+
+.flyer-a4 {
+  width: 210mm;
+  height: 297mm;
+  padding: 5mm;
+  box-sizing: border-box;
+  background-color: #004225;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flyer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.flyer-contact {
+  text-align: right;
+  font-size: 1rem;
+}
+
+.flyer-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: gold;
+  margin: 1rem 0;
+}
+
+.flyer-description {
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+
+.flyer-food-img {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.flyer-pricing {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+.flyer-pricing h3 {
+  color: #ffdd57;
+}
+
+.flyer-pricing ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.flyer-pricing li {
+  margin-bottom: 0.3rem;
+}
+
+.flyer-thanks {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.flyer-footer {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: auto;
+}
+
+.flyer-delivery {
+  color: #fff;
+  background-color: #ff3c3c;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+}
