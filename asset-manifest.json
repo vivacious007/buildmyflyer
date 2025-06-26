@@ -1,21 +1,28 @@
 {
   "files": {
-    "main.css": "/buildmyflyer/static/css/main.f1023190.css",
-    "main.js": "/buildmyflyer/static/js/main.eb1e432d.js",
+    "main.css": "/buildmyflyer/static/css/main.0ced0869.css",
+    "main.js": "/buildmyflyer/static/js/main.c3c72cb8.js",
     "static/media/fa-solid-900.ttf": "/buildmyflyer/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/InterVariable-Italic.woff2": "/buildmyflyer/static/media/InterVariable-Italic.e295f70fe3e2df296c7b.woff2",
+    "static/media/InterVariable.woff2": "/buildmyflyer/static/media/InterVariable.a0e477f2f1f9d2376fde.woff2",
+    "static/media/primeicons.svg": "/buildmyflyer/static/media/primeicons.6ed59f962963a4a73af2.svg",
     "static/media/fa-brands-400.ttf": "/buildmyflyer/static/media/fa-brands-400.1815e00441357e01619e.ttf",
     "static/media/fa-solid-900.woff2": "/buildmyflyer/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
     "static/media/fa-brands-400.woff2": "/buildmyflyer/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/primeicons.eot": "/buildmyflyer/static/media/primeicons.ff0c4cd79b2ffca2de54.eot",
+    "static/media/primeicons.woff": "/buildmyflyer/static/media/primeicons.8931fda1930c3bd21e96.woff",
+    "static/media/primeicons.ttf": "/buildmyflyer/static/media/primeicons.a5c2a53d1ff7a9ff5933.ttf",
     "static/media/fa-regular-400.ttf": "/buildmyflyer/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/primeicons.woff2": "/buildmyflyer/static/media/primeicons.024b32cc7bf399b1a847.woff2",
     "static/media/fa-regular-400.woff2": "/buildmyflyer/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
     "static/media/fa-v4compatibility.ttf": "/buildmyflyer/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/buildmyflyer/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/buildmyflyer/index.html",
-    "main.f1023190.css.map": "/buildmyflyer/static/css/main.f1023190.css.map",
-    "main.eb1e432d.js.map": "/buildmyflyer/static/js/main.eb1e432d.js.map"
+    "main.0ced0869.css.map": "/buildmyflyer/static/css/main.0ced0869.css.map",
+    "main.c3c72cb8.js.map": "/buildmyflyer/static/js/main.c3c72cb8.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1023190.css",
-    "static/js/main.eb1e432d.js"
+    "static/css/main.0ced0869.css",
+    "static/js/main.c3c72cb8.js"
   ]
 }
