@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/buildmyflyer/static/css/main.315ca9b7.css",
+    "main.css": "/buildmyflyer/static/css/main.2786a630.css",
     "main.js": "/buildmyflyer/static/js/main.3466bbb0.js",
     "static/media/fa-solid-900.ttf": "/buildmyflyer/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/InterVariable-Italic.woff2": "/buildmyflyer/static/media/InterVariable-Italic.e295f70fe3e2df296c7b.woff2",
@@ -18,11 +18,11 @@
     "static/media/fa-v4compatibility.ttf": "/buildmyflyer/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/buildmyflyer/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/buildmyflyer/index.html",
-    "main.315ca9b7.css.map": "/buildmyflyer/static/css/main.315ca9b7.css.map",
+    "main.2786a630.css.map": "/buildmyflyer/static/css/main.2786a630.css.map",
     "main.3466bbb0.js.map": "/buildmyflyer/static/js/main.3466bbb0.js.map"
   },
   "entrypoints": [
-    "static/css/main.315ca9b7.css",
+    "static/css/main.2786a630.css",
     "static/js/main.3466bbb0.js"
   ]
 }
