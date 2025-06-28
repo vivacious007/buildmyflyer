@@ -34,7 +34,7 @@ button:hover {
 }
 
 .preview-box {
-  width: 210mm;
+  /* width: 210mm; */
   height: 297mm;
   padding: 20mm;
   box-sizing: border-box;
@@ -87,7 +87,7 @@ button:hover {
   border-radius: 10px;
 }
 .flyer-container {
-  width: 210mm;
+  /* width: 210mm; */
   height: 297mm;
   padding: 10mm;
   box-sizing: border-box;
@@ -128,8 +128,10 @@ button:hover {
 
 
 .flyer-a4 {
-  width: 210mm;
-  height: 297mm;
+  width: 100%;
+  max-width: 210mm;
+  height: auto;
+  /* aspect-ratio: 210 / 297; Keeps A4 aspect ratio */
   padding: 5mm;
   box-sizing: border-box;
   background-color: #004225;
@@ -138,6 +140,41 @@ button:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .flyer-a4 {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+  }
+
+  .flyer-title {
+    font-size: 1.8rem;
+  }
+
+  .flyer-description {
+    font-size: 1rem;
+  }
+
+  .flyer-food-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .flyer-pricing ul {
+    padding-left: 20px;
+  }
+
+  .flyer-footer {
+    flex-direction: column;
+    gap: 8px;
+    font-size: 0.9rem;
+  }
 }
 
 .flyer-header {
@@ -217,4 +254,39 @@ button:hover {
   background-color: #ff3c3c;
   padding: 0.25rem 0.75rem;
   border-radius: 4px;
+}
+
+.mobile-preview-wrapper {
+  max-width: 360px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.mobile-preview {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.flyer-preview-wrapper {
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+}
+.flyer-pricing ul {
+  list-style-type: disc; /* or circle, square */
+  padding-left: 1.5rem;
+}
+.flyer-pricing ul li {
+  font-size: 1.2rem; /* or increase to 1.4rem / 18px / 20px as you prefer */
+  margin-bottom: 0.5rem;
+}
+.flyer-pricing h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
