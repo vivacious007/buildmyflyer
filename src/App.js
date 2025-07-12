@@ -44,25 +44,36 @@ const handleMenuImageUpload = (e) => {
     });
 };
 function extractMenuItemsFromText(text) {
-  const lines = text.split('\n').map(line => line.trim()).filter(Boolean);
+  const lines = text
+    .split('\n')
+    .map(line => line.trim())
+    .filter(Boolean);
+
   const menuItems = [];
 
   lines.forEach(line => {
-    // Remove bullet symbols and normalize dashes
-    const cleanLine = line.replace(/^•\s*/, '').replace(/–/g, '-');
+    // Remove leading bullets like •, *, -, or .
+    const cleanLine = line.replace(/^[•*.\-–\s]+/, '');
 
-    // Match "Dish Name - 100" or "Dish Name - ₹100"
-    const match = cleanLine.match(/(.+?)\s*-\s*(?:₹)?\s*(\d+)/);
+    // Match "Dish Name - ₹110" or "Dish Name: ₹110" or "Dish Name - 110"
+    const match = cleanLine.match(/(.+?)\s*[-:]\s*(?:₹\s*)?(\d{2,4})/);
 
     if (match) {
       const name = match[1].trim();
-      const price = match[2].trim();
-      menuItems.push({ name, price });
+      const price = parseInt(match[2].trim(), 10);
+
+      // Skip junk OCR entries
+      if (price >= 10 && price <= 999) {
+        menuItems.push({ label: name, price });
+      }
     }
   });
 
   return menuItems;
 }
+
+
+
   return (
     <div className={`container-fluid ${data.backgroundStyle} mb-3`}>
        <div className="d-flex justify-content-end pe-3">

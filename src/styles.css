@@ -34,7 +34,6 @@ button:hover {
 }
 
 .preview-box {
-  /* width: 210mm; */
   height: 297mm;
   padding: 20mm;
   box-sizing: border-box;
@@ -43,6 +42,7 @@ button:hover {
   background-color: white;
 }
 
+/* Preset Gradient Styles */
 .style1 {
   background: linear-gradient(to right, #ffecd2, #fcb69f);
 }
@@ -66,75 +66,17 @@ button:hover {
 }
 
 .flyer-imageful {
-  /* background: url('/presets/flyer-bg.jpg') center/cover no-repeat; */
   color: white;
   text-shadow: 1px 1px 2px black;
 }
 
-.flyer-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.flyer-logo {
-  height: 100px;
-}
-
-.flyer-image {
-  width: 100%;
-  margin-top: 10px;
-  border-radius: 10px;
-}
-.flyer-container {
-  /* width: 210mm; */
-  height: 297mm;
-  padding: 10mm;
-  box-sizing: border-box;
-  background-color: white;
-  color: #000;
-  font-family: 'Arial', sans-serif;
-}
-
-.classic {
-  background: #d5f5e3;
-  color: #1a4d2e;
-}
-
-.modern {
-  background: linear-gradient(to bottom right, #ffecd2, #fcb69f);
-  color: #2c2c2c;
-}
-
-.imageful {
-  /* background-image: url('/flyer-bg.jpg'); add a nice food bg */
-  background-size: cover;
-  background-position: center;
-  color: #fff;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.5);
-}
-
-.bold {
-  background: #000;
-  color: #ff3c3c;
-}
-
-.royal {
-  background: linear-gradient(to bottom, #4b0082, #ffd700);
-  color: #fff;
-  font-family: 'Georgia', serif;
-}
-
-
-
+/* -------- Flyer A4 Styling with Image Overlay -------- */
 .flyer-a4 {
   width: 100%;
   max-width: 210mm;
   height: auto;
-  /* aspect-ratio: 210 / 297; Keeps A4 aspect ratio */
   padding: 5mm;
   box-sizing: border-box;
-  background-color: #004225;
   color: white;
   font-family: 'Segoe UI', sans-serif;
   display: flex;
@@ -143,8 +85,12 @@ button:hover {
   overflow: hidden;
   border-radius: 10px;
   margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
+/* Responsive Design */
 @media (max-width: 768px) {
   .flyer-a4 {
     padding: 10px;
@@ -177,18 +123,23 @@ button:hover {
   }
 }
 
+/* Header */
 .flyer-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-
 .flyer-contact {
   text-align: right;
   font-size: 1rem;
 }
 
+.flyer-logo {
+  height: 100px;
+}
+
+/* Title & Description */
 .flyer-title {
   text-align: center;
   font-size: 2.5rem;
@@ -203,6 +154,7 @@ button:hover {
   margin: 1rem 0;
 }
 
+/* Food Image */
 .flyer-food-img {
   width: 100%;
   max-width: 500px;
@@ -212,35 +164,33 @@ button:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
+/* Pricing Box */
 .flyer-pricing {
-  background-color: rgba(255, 255, 255, 0.1);
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  background-color: rgb(198 188 188 / 50%);
   padding: 1rem;
   border-radius: 8px;
   margin: 1.5rem 0;
 }
 
 .flyer-pricing h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
   color: #ffdd57;
 }
 
 .flyer-pricing ul {
-  list-style: none;
-  padding-left: 0;
-  font-size: 1rem;
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  font-size: 1.3rem;
   margin-top: 0.5rem;
 }
 
 .flyer-pricing li {
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.5rem;
 }
 
-.flyer-thanks {
-  text-align: center;
-  margin-top: 1rem;
-  font-size: 1rem;
-  font-style: italic;
-}
-
+/* Footer Section */
 .flyer-footer {
   display: flex;
   justify-content: space-between;
@@ -256,6 +206,14 @@ button:hover {
   border-radius: 4px;
 }
 
+.flyer-thanks {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+/* Mobile preview (optional if used) */
 .mobile-preview-wrapper {
   max-width: 360px;
   margin: 0 auto;
@@ -272,21 +230,10 @@ button:hover {
   padding: 10px;
   box-sizing: border-box;
 }
+
 .flyer-preview-wrapper {
   width: 100%;
   overflow-x: hidden;
   display: flex;
   justify-content: center;
-}
-.flyer-pricing ul {
-  list-style-type: disc; /* or circle, square */
-  padding-left: 1.5rem;
-}
-.flyer-pricing ul li {
-  font-size: 1.2rem; /* or increase to 1.4rem / 18px / 20px as you prefer */
-  margin-bottom: 0.5rem;
-}
-.flyer-pricing h3 {
-  font-size: 1.5rem;
-  font-weight: bold;
 }
