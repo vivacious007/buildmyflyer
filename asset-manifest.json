@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/buildmyflyer/static/css/main.fed7da9d.css",
-    "main.js": "/buildmyflyer/static/js/main.c338ab32.js",
+    "main.js": "/buildmyflyer/static/js/main.b33df0b3.js",
     "static/media/logo.png": "/buildmyflyer/static/media/logo.17122b7f5a4d5700458e.png",
     "static/media/fa-solid-900.ttf": "/buildmyflyer/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/InterVariable-Italic.woff2": "/buildmyflyer/static/media/InterVariable-Italic.e295f70fe3e2df296c7b.woff2",
@@ -20,10 +20,10 @@
     "static/media/fa-v4compatibility.woff2": "/buildmyflyer/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/buildmyflyer/index.html",
     "main.fed7da9d.css.map": "/buildmyflyer/static/css/main.fed7da9d.css.map",
-    "main.c338ab32.js.map": "/buildmyflyer/static/js/main.c338ab32.js.map"
+    "main.b33df0b3.js.map": "/buildmyflyer/static/js/main.b33df0b3.js.map"
   },
   "entrypoints": [
     "static/css/main.fed7da9d.css",
-    "static/js/main.c338ab32.js"
+    "static/js/main.b33df0b3.js"
   ]
 }
